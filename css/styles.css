@@ -564,3 +564,22 @@ button:focus {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
+/**
+  |============================
+  | Modal window
+  |============================
+*/
+
+.backdrop {
+
+}
+.modal {
+
+}
+.modal-close-btn {
+
+}
+.modal-close-icon {
+
+}
