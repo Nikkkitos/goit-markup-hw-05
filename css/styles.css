@@ -74,6 +74,7 @@ img {
 }
 .header-nav-link {
     color: #404bbf;
+    position: relative;
 }
 
 .header-nav-link::after {
