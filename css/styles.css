@@ -37,7 +37,11 @@ img {
     padding: 0 15px;
 }
 
-/* ======HEADER====== */
+/**
+  |============================
+  | Header
+  |============================
+*/ 
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -66,6 +70,7 @@ img {
     color: var(--color-navy-blue-modal);
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-link::after {
     content: '';
@@ -126,8 +131,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
-    position: relative;
-    color: #404bbf;
+    /* position: relative;
+    color: #404bbf; */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -290,6 +295,7 @@ button:focus {
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-info {
     padding: 32px 0;
@@ -343,7 +349,11 @@ button:focus {
 .socials-icon {
     fill:#f4f4fd;
 }
-/* Customers */
+/*
+  |============================
+  | Customers
+  |============================
+*/
 .customers {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -656,4 +666,4 @@ button:focus {
 .modal-close-icon:hover,
 .modal-close-icon:focus {
     fill: #ffffff;
-}
+} 
